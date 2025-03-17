@@ -1,65 +1,59 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { Droplets } from 'lucide-react';
 
-const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+export default function Navbar() {
   const location = useLocation();
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  const closeMenu = () => {
-    setIsMenuOpen(false);
-  };
-
+  
+  const isActive = (path) => location.pathname === path;
+  
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-      <div className="navbar-container">
-        <Link to="/" className="logo" onClick={closeMenu}>
-          <span className="logo-text">Luxe</span>
-          <span className="logo-accent">Flow</span>
-        </Link>
-        
-        <div className={`menu-icon ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
+    <nav className="bg-white shadow-lg">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="flex justify-between h-16">
+          <div className="flex items-center">
+            <Link to="/" className="flex items-center">
+              <Droplets className="h-8 w-8 text-blue-600" />
+              <span className="ml-2 text-xl font-semibold text-gray-900">LuxBath</span>
+            </Link>
+          </div>
+          
+          <div className="flex items-center space-x-8">
+            <Link
+              to="/"
+              className={`${
+                isActive('/') ? 'text-blue-600' : 'text-gray-600'
+              } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
+            >
+              Home
+            </Link>
+            <Link
+              to="/products"
+              className={`${
+                isActive('/products') ? 'text-blue-600' : 'text-gray-600'
+              } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
+            >
+              Products
+            </Link>
+            <Link
+              to="/about"
+              className={`${
+                isActive('/about') ? 'text-blue-600' : 'text-gray-600'
+              } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
+            >
+              About
+            </Link>
+            <Link
+              to="/contact"
+              className={`${
+                isActive('/contact') ? 'text-blue-600' : 'text-gray-600'
+              } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
+            >
+              Contact
+            </Link>
+          </div>
         </div>
-        
-        <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
-          <li className={location.pathname === '/' ? 'active' : ''}>
-            <Link to="/" onClick={closeMenu}>Home</Link>
-          </li>
-          <li className={location.pathname === '/products' ? 'active' : ''}>
-            <Link to="/products" onClick={closeMenu}>Products</Link>
-          </li>
-          <li className={location.pathname === '/about' ? 'active' : ''}>
-            <Link to="/about" onClick={closeMenu}>About Us</Link>
-          </li>
-          <li className={location.pathname === '/contact' ? 'active' : ''}>
-            <Link to="/contact" onClick={closeMenu}>Contact</Link>
-          </li>
-        </ul>
       </div>
     </nav>
   );
-};
-
-export default Navbar;
+}
