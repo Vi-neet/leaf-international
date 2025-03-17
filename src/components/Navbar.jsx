@@ -1,28 +1,34 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Droplets } from 'lucide-react';
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Droplets } from "lucide-react";
 
 export default function Navbar() {
   const location = useLocation();
-  
+
   const isActive = (path) => location.pathname === path;
-  
+
   return (
     <nav className="bg-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <Droplets className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-semibold text-gray-900">LuxBath</span>
+              <img
+                src="/leaf-int.png"
+                alt="Leaf International"
+                className="h-8 w-8"
+              />
+              <span className="ml-2 text-xl font-semibold text-gray-900">
+                Leaf international
+              </span>
             </Link>
           </div>
-          
+
           <div className="flex items-center space-x-8">
             <Link
               to="/"
               className={`${
-                isActive('/') ? 'text-blue-600' : 'text-gray-600'
+                isActive("/") ? "text-blue-600" : "text-gray-600"
               } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
             >
               Home
@@ -30,7 +36,7 @@ export default function Navbar() {
             <Link
               to="/products"
               className={`${
-                isActive('/products') ? 'text-blue-600' : 'text-gray-600'
+                isActive("/products") ? "text-blue-600" : "text-gray-600"
               } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
             >
               Products
@@ -38,7 +44,7 @@ export default function Navbar() {
             <Link
               to="/about"
               className={`${
-                isActive('/about') ? 'text-blue-600' : 'text-gray-600'
+                isActive("/about") ? "text-blue-600" : "text-gray-600"
               } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
             >
               About
@@ -46,7 +52,7 @@ export default function Navbar() {
             <Link
               to="/contact"
               className={`${
-                isActive('/contact') ? 'text-blue-600' : 'text-gray-600'
+                isActive("/contact") ? "text-blue-600" : "text-gray-600"
               } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
             >
               Contact
