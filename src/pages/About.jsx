@@ -5,9 +5,9 @@ export default function About() {
     <div className="max-w-7xl mx-auto px-4 py-16">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-6">About LuxBath</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-6">About Lead International</h1>
           <p className="text-gray-600 mb-4">
-            Since 1995, LuxBath has been at the forefront of bathroom fixture innovation,
+            Since 1995, Lead International has been at the forefront of bathroom fixture innovation,
             combining elegant design with superior functionality to create products that
             transform everyday spaces into luxurious sanctuaries.
           </p>
