@@ -31,15 +31,15 @@ export default function ProductCard({ product }) {
 
       {isModalOpen && (
         <div
-          className="fixed inset-0 bg-black/60 bg-opacity-75 flex items-center justify-center z-50"
+          className="fixed inset-0 bg-black/60 bg-opacity-75 flex items-center justify-center z-50 "
           onClick={closeModal}
         >
           <div
-            className="relative max-w-4xl max-h-screen p-2"
+            className="relative max-w-4xl max-h-screen p-2 "
             onClick={(e) => e.stopPropagation()}
           >
             <button
-              className="absolute top-4 right-4 bg-white rounded-full p-2 text-black hover:bg-gray-200"
+              className="absolute top-4 right-4 bg-white rounded-full p-2 text-black hover:bg-gray-200 "
               onClick={closeModal}
             >
               <svg

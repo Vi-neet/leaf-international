@@ -28,16 +28,16 @@ export default function Navbar() {
             <Link
               to="/"
               className={`${
-                isActive("/") ? "text-blue-600" : "text-gray-600"
-              } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
+                isActive("/") ? "text-green-600" : "text-gray-600"
+              } hover:text-green-600 px-3 py-2 text-sm font-medium transition-colors`}
             >
               Home
             </Link>
             <Link
               to="/products"
               className={`${
-                isActive("/products") ? "text-blue-600" : "text-gray-600"
-              } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
+                isActive("/products") ? "text-green-600" : "text-gray-600"
+              } hover:text-green-600 px-3 py-2 text-sm font-medium transition-colors`}
             >
               Products
             </Link>
@@ -45,8 +45,8 @@ export default function Navbar() {
             <Link
               to="/contact"
               className={`${
-                isActive("/contact") ? "text-blue-600" : "text-gray-600"
-              } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
+                isActive("/contact") ? "text-green-600" : "text-gray-600"
+              } hover:text-green-600 px-3 py-2 text-sm font-medium transition-colors`}
             >
               Contact
             </Link>

@@ -6,20 +6,20 @@ export default function Contact() {
     <div className="max-w-7xl mx-auto px-4 py-9">
       <div className="text-center mb-16">
         <h1 className="text-4xl font-bold text-gray-900">Contact Us</h1>
-        <div className="h-1 w-24 bg-blue-600 mx-auto mt-4 rounded-full"></div>
+        <div className="h-1 w-24 bg-green-600 mx-auto mt-4 rounded-full"></div>
       </div>
 
       <div className="grid md:grid-cols-2 gap-12">
         <div className="bg-white p-8 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-semibold mb-8 text-blue-700 flex items-center">
+          <h2 className="text-2xl font-semibold mb-8 text-green-700 flex items-center">
             <Building2 className="mr-2" />
             Bank Details
           </h2>
 
           <div className="space-y-6">
-            <div className="flex items-center p-4 bg-blue-50 rounded-lg border-l-4 border-blue-600">
+            <div className="flex items-center p-4 bg-green-50 rounded-lg border-l-4 border-green-600">
               <div className="flex-shrink-0">
-                <Building2 className="h-6 w-6 text-blue-600" />
+                <Building2 className="h-6 w-6 text-green-600" />
               </div>
               <div className="ml-4">
                 <h3 className="font-medium text-gray-800">Account Name</h3>
@@ -29,9 +29,9 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="flex items-center p-4 bg-blue-50 rounded-lg border-l-4 border-blue-600">
+            <div className="flex items-center p-4 bg-green-50 rounded-lg border-l-4 border-green-600">
               <div className="flex-shrink-0">
-                <CreditCard className="h-6 w-6 text-blue-600" />
+                <CreditCard className="h-6 w-6 text-green-600" />
               </div>
               <div className="ml-4">
                 <h3 className="font-medium text-gray-800">Bank Name</h3>
@@ -39,9 +39,9 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="flex items-center p-4 bg-blue-50 rounded-lg border-l-4 border-blue-600">
+            <div className="flex items-center p-4 bg-green-50 rounded-lg border-l-4 border-green-600">
               <div className="flex-shrink-0">
-                <Hash className="h-6 w-6 text-blue-600" />
+                <Hash className="h-6 w-6 text-green-600" />
               </div>
               <div className="ml-4">
                 <h3 className="font-medium text-gray-800">Account Number</h3>
@@ -49,9 +49,9 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="flex items-center p-4 bg-blue-50 rounded-lg border-l-4 border-blue-600">
+            <div className="flex items-center p-4 bg-green-50 rounded-lg border-l-4 border-green-600">
               <div className="flex-shrink-0">
-                <Hash className="h-6 w-6 text-blue-600" />
+                <Hash className="h-6 w-6 text-green-600" />
               </div>
               <div className="ml-4">
                 <h3 className="font-medium text-gray-800">IFSC Code</h3>
@@ -62,15 +62,15 @@ export default function Contact() {
         </div>
 
         <div className="bg-white p-8 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-semibold mb-8 text-blue-700 flex items-center">
+          <h2 className="text-2xl font-semibold mb-8 text-green-700 flex items-center">
             <Phone className="mr-2" />
             Contact Information
           </h2>
 
           <div className="space-y-8">
             <div className="flex items-start">
-              <div className="flex-shrink-0 p-3 bg-blue-100 rounded-full">
-                <MapPin className="h-6 w-6 text-blue-600" />
+              <div className="flex-shrink-0 p-3 bg-green-100 rounded-full">
+                <MapPin className="h-6 w-6 text-green-600" />
               </div>
               <div className="ml-4">
                 <h3 className="font-medium text-gray-800">Address</h3>
@@ -85,8 +85,8 @@ export default function Contact() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex-shrink-0 p-3 bg-blue-100 rounded-full">
-                <Phone className="h-6 w-6 text-blue-600" />
+              <div className="flex-shrink-0 p-3 bg-green-100 rounded-full">
+                <Phone className="h-6 w-6 text-green-600" />
               </div>
               <div className="ml-4">
                 <h3 className="font-medium text-gray-800">Phone</h3>
@@ -95,8 +95,8 @@ export default function Contact() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex-shrink-0 p-3 bg-blue-100 rounded-full">
-                <Mail className="h-6 w-6 text-blue-600" />
+              <div className="flex-shrink-0 p-3 bg-green-100 rounded-full">
+                <Mail className="h-6 w-6 text-green-600" />
               </div>
               <div className="ml-4">
                 <h3 className="font-medium text-gray-800">Email</h3>

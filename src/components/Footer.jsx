@@ -19,7 +19,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">
-              Lead International
+              Leaf International
             </h3>
             <p className="mb-4">
               Premium bathroom hardware solutions for modern homes. Quality
@@ -159,7 +159,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} Lead International. All rights
+              © {new Date().getFullYear()} Leaf International. All rights
               reserved.
             </p>
           </div>

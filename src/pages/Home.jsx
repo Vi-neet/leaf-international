@@ -21,7 +21,7 @@ export default function Home() {
             </p>
             <Link
               to="/products"
-              className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
+              className="inline-flex items-center bg-green-700 text-white px-6 py-3 rounded-md hover:bg-green-800 transition-colors ease-in-out duration-300"
             >
               Browse Collection
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -34,19 +34,19 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid md:grid-cols-3 gap-8">
           <div className="text-center p-6">
-            <h3 className="text-xl font-semibold mb-3">Premium Quality</h3>
+            <h3 className="text-xl font-semibold text-green-900 mb-3">Premium Quality</h3>
             <p className="text-gray-600">
               Durable materials and precision engineering for long-lasting performance
             </p>
           </div>
           <div className="text-center p-6">
-            <h3 className="text-xl font-semibold mb-3">Modern Design</h3>
+            <h3 className="text-xl text-green-900 font-semibold mb-3">Modern Design</h3>
             <p className="text-gray-600">
               Stylish fixtures that enhance your bathroom's aesthetic appeal
             </p>
           </div>
           <div className="text-center p-6">
-            <h3 className="text-xl font-semibold mb-3">Expert Support</h3>
+            <h3 className="text-xl font-semibold text-green-900 mb-3">Expert Support</h3>
             <p className="text-gray-600">
               Professional guidance for selecting the perfect bathroom hardware
             </p>
@@ -59,22 +59,22 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">About Lead International</h2>
-              <p className="text-gray-600 mb-4">
-                Lead International specializes in high-quality bathroom hardware, offering a comprehensive range of taps, faucets, plastic taps, and handle bars designed for both functionality and style.
+              <h2 className="text-4xl font-bold text-green-900 mb-6">About Leaf International</h2>
+              <p className="text-green-600 mb-4">
+                Leaf International specializes in high-quality bathroom hardware, offering a comprehensive range of taps, faucets, plastic taps, and handle bars designed for both functionality and style.
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-green-600 mb-4">
                 We combine innovative design with reliable construction to deliver bathroom hardware that stands the test of time while enhancing the look of your space.
               </p>
               <div className="mt-8">
-                <h3 className="text-xl font-semibold mb-3">Our Product Range</h3>
+                <h3 className="text-xl text-green-800 font-semibold mb-3">Our Product Range</h3>
                 <ul className="grid grid-cols-2 gap-2">
-                  <li className="text-gray-600">• Luxury Faucets</li>
-                  <li className="text-gray-600">• Premium Taps</li>
-                  <li className="text-gray-600">• Durable Plastic Taps</li>
-                  <li className="text-gray-600">• Ergonomic Handle Bars</li>
-                  <li className="text-gray-600">• Shower Systems</li>
-                  <li className="text-gray-600">• Bathroom Accessories</li>
+                  <li className="text-green-600">• Luxury Faucets</li>
+                  <li className="text-green-600">• Premium Taps</li>
+                  <li className="text-green-600">• Durable Plastic Taps</li>
+                  <li className="text-green-600">• Ergonomic Handle Bars</li>
+                  <li className="text-green-600">• Shower Systems</li>
+                  <li className="text-green-600">• Bathroom Accessories</li>
                 </ul>
               </div>
             </div>
@@ -91,7 +91,7 @@ export default function Home() {
 
       {/* Product Categories */}
       <div className="max-w-7xl mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-center mb-12">Our Featured Collections</h2>
+        <h2 className="text-3xl font-bold text-green-900 text-center mb-12">Our Featured Collections</h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
@@ -102,7 +102,7 @@ export default function Home() {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Premium Faucets</h3>
               <p className="text-gray-600 mb-4">Elegant designs with advanced water-saving technology</p>
-              <Link to="/products" className="text-blue-600 hover:underline inline-flex items-center">
+              <Link to="/products" className="text-green-600 hover:underline inline-flex items-center">
                 View Collection <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
@@ -117,7 +117,7 @@ export default function Home() {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Durable Plastic Taps</h3>
               <p className="text-gray-600 mb-4">Cost-effective solutions without compromising on quality</p>
-              <Link to="/products" className="text-blue-600 hover:underline inline-flex items-center">
+              <Link to="/products" className="text-green-600 hover:underline inline-flex items-center">
                 View Collection <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
@@ -132,7 +132,7 @@ export default function Home() {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Safety Handle Baths</h3>
               <p className="text-gray-600 mb-4">Ergonomic designs for enhanced bathroom safety and accessibility</p>
-              <Link to="/products" className="text-blue-600 hover:underline inline-flex items-center">
+              <Link to="/products" className="text-green-600 hover:underline inline-flex items-center">
                 View Collection <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
