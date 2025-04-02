@@ -1,19 +1,19 @@
 export const products = [
   {
     id: "1",
-    category: "Faucets",
-    image: "/api/placeholder/800/600",
+    category: "Showers",
+    image: "/shower-1.jpg",
   },
-  // {
-  //   id: "2",
-  //   category: "Showers",
-  //   image: "/api/placeholder/800/600",
-  // },
-  // {
-  //   id: "3",
-  //   category: "Plastic Taps",
-  //   image: "/api/placeholder/800/600",
-  // },
+  {
+    id: "2",
+    category: "Showers",
+    image: "/shower-2.jpg",
+  },
+  {
+    id: "3",
+    category: "Concealed Parts",
+    image: "/cp-1.png",
+  },
   {
     id: "4",
     category: "Handle Bath",
@@ -104,17 +104,153 @@ export const products = [
   // Additional Tap (1)
   {
     id: "21",
-    category: "Tap",
+    category: "Faucets",
     image: "/Tap.jpg",
   },
   {
     id: "22",
     category: "Plastic Taps",
-    image:"/plastic-tap.jpg",
+    image: "/plastic-tap.jpg",
   },
-  {id: "23",
+  { id: "23", category: "Plastic Taps", image: "/plastic-tap-1.jpg" },
+  {
+    id: "24",
+    category: "Showers",
+    image: "/shower-3.jpg",
+  },
+  {
+    id: "25",
+    category: "Showers",
+    image: "/shower-4.jpg",
+  },
+  {
+    id: "26",
+    category: "Showers",
+    image: "/shower-5.jpg",
+  },
+  {
+    id: "27",
+    category: "Showers",
+    image: "/shower-6.jpg",
+  },
+  {
+    id: "28",
+    category: "Showers",
+    image: "/shower-7.jpg",
+  },
+  {
+    id: "29",
+    category: "Showers",
+    image: "/shower-8.jpg",
+  },
+  {
+    id: "30",
+    category: "Showers",
+    image: "/shower-9.jpg",
+  },
+  {
+    id: "31",
+    category: "Showers",
+    image: "/shower-10.jpg",
+  },
+  {
+    id: "32",
+    category: "Concealed Parts",
+    image: "/cp-2.png",
+  },
+  {
+    id: "33",
+    category: "Concealed Parts",
+    image: "/cp-3.png",
+  },
+  {
+    id: "34",
+    category: "Concealed Parts",
+    image: "/cp-4.png",
+  },
+  {
+    id: "35",
+    category: "Concealed Parts",
+    image: "/cp-5.png",
+  },
+  {
+    id: "36",
+    category: "Concealed Parts",
+    image: "/cp-6.png",
+  },
+  {
+    id: "37",
+    category: "Concealed Parts",
+    image: "/cp-7.png",
+  },
+  {
+    id: "38",
+    category: "Concealed Parts",
+    image: "/cp-8.jpg",
+  },
+  {
+    id: "39",
+    category: "Concealed Parts",
+    image: "/cp-9.jpg",
+  },
+  {
+    id: "40",
+    category: "Concealed Parts",
+    image: "/cp-10.jpg",
+  },
+  {
+    id: "41",
+    category: "Faucets",
+    image: "/faucet-2.jpg",
+  },
+  {
+    id: "42",
+    category: "Faucets",
+    image: "/faucet-3.jpg",
+  },
+  {
+    id: "43",
+    category: "Faucets",
+    image: "/faucet-4.jpg",
+  },
+  {
+    id: "44",
+    category: "Faucets",
+    image: "/faucet-5.jpg",
+  },
+  {
+    id: "45",
+    category: "Faucets",
+    image: "/faucet-6.jpg",
+  },
+  {
+    id: "46",
+    category: "Faucets",
+    image: "/faucet-7.jpg",
+  },
+  {
+    id: "47",
+    category: "Faucets",
+    image: "/faucet-8.jpg",
+  },
+  {
+    id: "48",
+    category: "Faucets",
+    image: "/faucet-9.jpg",
+  },
+  {
+    id: "49",
+    category: "Faucets",
+    image: "/faucet-10.jpg",
+  },
+  {
+    id: "50",
     category: "Plastic Taps",
-    image:"/plastic-tap-1.jpg",
-  }
+    image: "/plastic-tap-10.jpg",
+  },
+  {
+    id: "51",
+    category: "Plastic Taps",
+    image: "/plastic-tap-11.jpg",
+  },
 ];
-

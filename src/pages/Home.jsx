@@ -95,7 +95,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="/api/placeholder/400/300" 
+              src="/faucet-3.jpg" 
               alt="Premium Faucets" 
               className="w-full h-56 object-cover"
             />
