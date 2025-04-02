@@ -8,17 +8,17 @@ export default function Navbar() {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="bg-white shadow-lg">
+    <nav className="bg-#fcfaf6 shadow-lg">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img
-                src="/leaf-int.png"
+                src="/leaf-int-2-modified.png"
                 alt="Leaf International"
                 className="h-8 w-8"
               />
-              <span className="ml-2 text-xl font-semibold text-gray-900">
+              <span className="ml-2 text-xl font-semibold text-green-900 hover:text-green-700 transition-colors">
                 Leaf international
               </span>
             </Link>

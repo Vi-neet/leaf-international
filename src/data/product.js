@@ -1,32 +1,80 @@
 export const products = [
   {
-    id: '1',
-    name: 'Modern Chrome Basin Mixer',
-    category: 'Faucets',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800',
-    description: 'Sleek and contemporary basin mixer with water-saving technology.'
+    id: "1",
+    category: "Faucets",
+    image: "/api/placeholder/800/600",
+  },
+  // {
+  //   id: "2",
+  //   category: "Showers",
+  //   image: "/api/placeholder/800/600",
+  // },
+  // {
+  //   id: "3",
+  //   category: "Plastic Taps",
+  //   image: "/api/placeholder/800/600",
+  // },
+  // {
+  //   id: "4",
+  //   category: "Handle Bath",
+  //   image: "/api/placeholder/800/600",
+  // },
+  // Additional Plastic Taps (7 more)
+  {
+    id: "5",
+    category: "Plastic Taps",
+    image: "/Bib-Cock-with-Flange-blue.webp",
   },
   {
-    id: '2',
-    name: 'Rainfall Shower Head',
-    category: 'Showers',
-
-    image: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&q=80&w=800',
-    description: 'Luxurious rainfall shower experience with multiple spray patterns.'
+    id: "6",
+    category: "Plastic Taps",
+    image: "/Bib-Cock-with-Flange-white.webp",
   },
   {
-    id: '3',
-    name: 'Freestanding Bathtub',
-    category: 'Plastic Taps',
-    
-    image: 'https://images.unsplash.com/photo-1604709177225-055f99402ea3?auto=format&fit=crop&q=80&w=800',
-    description: 'Contemporary freestanding bathtub with elegant curves.'
+    id: "7",
+    category: "Plastic Taps",
+    image: "/long-pvc-taps-with-flage-blue.webp",
   },
   {
-    id: '4',
-    name: 'Wall-Mounted Basin',
-    category: 'Handle Bath',
-    image: 'https://images.unsplash.com/photo-1584622781867-1c5fe959485b?auto=format&fit=crop&q=80&w=800',
-    description: 'Space-saving wall-mounted basin with minimalist design.'
-  }
+    id: "8",
+    category: "Plastic Taps",
+    image: "/long-pvc-taps-with-flage-white.webp",
+  },
+  {
+    id: "9",
+    category: "Plastic Taps",
+    image: "/PTAC01_Bib-cock-with-flange-white.webp",
+  },
+  {
+    id: "10",
+    category: "Plastic Taps",
+    image: "/PTAC01B_Bib-Cock-with-Flange-blue.webp",
+  },
+  {
+    id: "11",
+    category: "Plastic Taps",
+    image: "/pvc-taps-with-flage-blue.webp",
+  },
+  // Additional Handle Bath (3 more)
+  {
+    id: "12",
+    category: "Handle Bath",
+    image: "/hand-held-1.jpg",
+  },
+  {
+    id: "13",
+    category: "Handle Bath",
+    image: "/hand-held-3.jpg",
+  },
+  {
+    id: "14",
+    category: "Handle Bath",
+    image: "/hand-held.jpg",
+  },
+  // Additional Tap (1)
+  {
+    id: "15",
+    category: "Tap",
+    image: "/Tap.jpg",
+  },
 ];
