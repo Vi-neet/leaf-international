@@ -14,11 +14,11 @@ export const products = [
   //   category: "Plastic Taps",
   //   image: "/api/placeholder/800/600",
   // },
-  // {
-  //   id: "4",
-  //   category: "Handle Bath",
-  //   image: "/api/placeholder/800/600",
-  // },
+  {
+    id: "4",
+    category: "Handle Bath",
+    image: "/hand-held-4.jpg",
+  },
   // Additional Plastic Taps (7 more)
   {
     id: "5",
@@ -71,10 +71,50 @@ export const products = [
     category: "Handle Bath",
     image: "/hand-held.jpg",
   },
-  // Additional Tap (1)
   {
     id: "15",
+    category: "Handle Bath",
+    image: "/hand-held-5.jpg",
+  },
+  {
+    id: "16",
+    category: "Handle Bath",
+    image: "/hand-held-6.jpg",
+  },
+  {
+    id: "17",
+    category: "Handle Bath",
+    image: "/hand-held-7.jpg",
+  },
+  {
+    id: "18",
+    category: "Handle Bath",
+    image: "/hand-held-8.jpg",
+  },
+  {
+    id: "19",
+    category: "Handle Bath",
+    image: "/hand-held-9.jpg",
+  },
+  {
+    id: "20",
+    category: "Handle Bath",
+    image: "/hand-held-10.jpg",
+  },
+  // Additional Tap (1)
+  {
+    id: "21",
     category: "Tap",
     image: "/Tap.jpg",
   },
+  {
+    id: "22",
+    category: "Plastic Taps",
+    image:"/plastic-tap.jpg",
+  },
+  {id: "23",
+    category: "Plastic Taps",
+    image:"/plastic-tap-1.jpg",
+  }
 ];
+

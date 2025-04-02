@@ -41,14 +41,7 @@ export default function Navbar() {
             >
               Products
             </Link>
-            <Link
-              to="/about"
-              className={`${
-                isActive("/about") ? "text-blue-600" : "text-gray-600"
-              } hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors`}
-            >
-              About
-            </Link>
+
             <Link
               to="/contact"
               className={`${
