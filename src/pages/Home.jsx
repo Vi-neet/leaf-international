@@ -34,19 +34,26 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid md:grid-cols-3 gap-8">
           <div className="text-center p-6">
-            <h3 className="text-xl font-semibold text-green-900 mb-3">Premium Quality</h3>
+            <h3 className="text-xl font-semibold text-green-900 mb-3">
+              Premium Quality
+            </h3>
             <p className="text-gray-600">
-              Durable materials and precision engineering for long-lasting performance
+              Durable materials and precision engineering for long-lasting
+              performance
             </p>
           </div>
           <div className="text-center p-6">
-            <h3 className="text-xl text-green-900 font-semibold mb-3">Modern Design</h3>
+            <h3 className="text-xl text-green-900 font-semibold mb-3">
+              Modern Design
+            </h3>
             <p className="text-gray-600">
               Stylish fixtures that enhance your bathroom's aesthetic appeal
             </p>
           </div>
           <div className="text-center p-6">
-            <h3 className="text-xl font-semibold text-green-900 mb-3">Expert Support</h3>
+            <h3 className="text-xl font-semibold text-green-900 mb-3">
+              Expert Support
+            </h3>
             <p className="text-gray-600">
               Professional guidance for selecting the perfect bathroom hardware
             </p>
@@ -54,20 +61,37 @@ export default function Home() {
         </div>
       </div>
 
-      {/* About Section */}
       <div className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-green-900 mb-6">About Leaf International</h2>
+              {/* Option 1: Logo next to heading */}
+              <div className="flex items-center gap-4 mb-6">
+                <h2 className="text-4xl font-bold text-green-900">
+                  About Leaf International
+                </h2>
+                <img
+                  src="/leaf-int-2-modified.png"
+                  alt="Leaf International Logo"
+                  className="h-12 w-auto"
+                />
+              </div>
+
               <p className="text-green-600 mb-4">
-                Leaf International specializes in high-quality bathroom hardware, offering a comprehensive range of taps, faucets, plastic taps, and handle bars designed for both functionality and style.
+                Leaf International specializes in high-quality bathroom
+                hardware, offering a comprehensive range of taps, faucets,
+                plastic taps, and handle bars designed for both functionality
+                and style.
               </p>
               <p className="text-green-600 mb-4">
-                We combine innovative design with reliable construction to deliver bathroom hardware that stands the test of time while enhancing the look of your space.
+                We combine innovative design with reliable construction to
+                deliver bathroom hardware that stands the test of time while
+                enhancing the look of your space.
               </p>
               <div className="mt-8">
-                <h3 className="text-xl text-green-800 font-semibold mb-3">Our Product Range</h3>
+                <h3 className="text-xl text-green-800 font-semibold mb-3">
+                  Our Product Range
+                </h3>
                 <ul className="grid grid-cols-2 gap-2">
                   <li className="text-green-600">• Luxury Faucets</li>
                   <li className="text-green-600">• Premium Taps</li>
@@ -88,51 +112,71 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       {/* Product Categories */}
       <div className="max-w-7xl mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-green-900 text-center mb-12">Our Featured Collections</h2>
+        <h2 className="text-3xl font-bold text-green-900 text-center mb-12">
+          Our Featured Collections
+        </h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="rounded-lg overflow-hidden shadow-lg">
-            <img 
-              src="/faucet-3.jpg" 
-              alt="Premium Faucets" 
+            <img
+              src="/faucet-3.jpg"
+              alt="Premium Faucets"
               className="w-full h-56 object-cover"
             />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Premium Faucets</h3>
-              <p className="text-gray-600 mb-4">Elegant designs with advanced water-saving technology</p>
-              <Link to="/products" className="text-green-600 hover:underline inline-flex items-center">
+              <p className="text-gray-600 mb-4">
+                Elegant designs with advanced water-saving technology
+              </p>
+              <Link
+                to="/products"
+                className="text-green-600 hover:underline inline-flex items-center"
+              >
                 View Collection <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
           </div>
-          
+
           <div className="rounded-lg shadow-lg">
-            <img 
-              src="/pvc-taps-with-flage-blue.webp" 
-              alt="Plastic Taps" 
+            <img
+              src="/pvc-taps-with-flage-blue.webp"
+              alt="Plastic Taps"
               className="w-full h-56 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">Durable Plastic Taps</h3>
-              <p className="text-gray-600 mb-4">Cost-effective solutions without compromising on quality</p>
-              <Link to="/products" className="text-green-600 hover:underline inline-flex items-center">
+              <h3 className="text-xl font-semibold mb-2">
+                Durable Plastic Taps
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Cost-effective solutions without compromising on quality
+              </p>
+              <Link
+                to="/products"
+                className="text-green-600 hover:underline inline-flex items-center"
+              >
                 View Collection <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
           </div>
-          
+
           <div className="rounded-lg overflow-hidden shadow-lg">
-            <img 
-              src="/hand-held-3.jpg" 
-              alt="Handle Bars" 
+            <img
+              src="/hand-held-3.jpg"
+              alt="Handle Bars"
               className="w-full h-56 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">Safety Handle Baths</h3>
-              <p className="text-gray-600 mb-4">Ergonomic designs for enhanced bathroom safety and accessibility</p>
-              <Link to="/products" className="text-green-600 hover:underline inline-flex items-center">
+              <h3 className="text-xl font-semibold mb-2">
+                Safety Handle Baths
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Ergonomic designs for enhanced bathroom safety and accessibility
+              </p>
+              <Link
+                to="/products"
+                className="text-green-600 hover:underline inline-flex items-center"
+              >
                 View Collection <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
