@@ -205,15 +205,9 @@ export default function Home() {
           </div>
 
           <div className="rounded-lg shadow-lg">
-            <img
-              src="/pvc-taps-with-flage-blue.webp"
-              alt="Plastic Taps"
-              className="w-full h-56 object-cover"
-            />
+            <img src="/Tap.jpg" alt="Faucet" className="w-full h-56" />
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">
-                Durable Plastic Taps
-              </h3>
+              <h3 className="text-xl font-semibold mb-2">Durable Taps</h3>
               <p className="text-gray-600 mb-4">
                 Cost-effective solutions without compromising on quality
               </p>
@@ -228,7 +222,7 @@ export default function Home() {
 
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/hand-held-3.jpg"
+              src="/hand-held-1.jpg"
               alt="Handle Bars"
               className="w-full h-56 object-cover"
             />
