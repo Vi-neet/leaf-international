@@ -274,4 +274,9 @@ export const products = [
     category: "Showers",
     image: "/shower-11.jpg",
   },
+  {
+    id: "53",
+    category: "Handle Bath",
+    image: "/hand-held-12.jpg",
+  },
 ];
