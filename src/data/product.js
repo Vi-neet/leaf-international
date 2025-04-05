@@ -134,6 +134,11 @@ export const products = [
     image: "/shower-3.jpg",
   },
   {
+    id: "53",
+    category: "Showers",
+    image: "/shower-12.jpg",
+  },
+  {
     id: "26",
     category: "Showers",
     image: "/shower-4.jpg",
@@ -263,5 +268,10 @@ export const products = [
     id: "51",
     category: "Plastic Taps",
     image: "/plastic-tap-11.jpg",
+  },
+  {
+    id: "52",
+    category: "Showers",
+    image: "/shower-11.jpg",
   },
 ];
