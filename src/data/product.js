@@ -16,7 +16,7 @@ export const products = [
   },
   {
     id: "4",
-    category: "Handle Bath",
+    category: "Toilet hand shower",
     image: "/hand-held-4.jpg",
   },
   {
@@ -64,52 +64,52 @@ export const products = [
     image: "/PTAC01_Bib-cock-with-flange-white.webp",
   },
 
-  // Additional Handle Bath (3 more)
+  // Additional Toilet hand shower (3 more)
   {
     id: "13",
-    category: "Handle Bath",
+    category: "Toilet hand shower",
     image: "/hand-held-1.jpg",
   },
 
   {
     id: "15",
-    category: "Handle Bath",
+    category: "Toilet hand shower",
     image: "/hand-held.jpg",
   },
   {
     id: "16",
-    category: "Handle Bath",
+    category: "Toilet hand shower",
     image: "/hand-held-5.jpg",
   },
   {
     id: "17",
-    category: "Handle Bath",
+    category: "Toilet hand shower",
     image: "/hand-held-6.jpg",
   },
 
   {
     id: "19",
-    category: "Handle Bath",
+    category: "Toilet hand shower",
     image: "/hand-held-8.jpg",
   },
   {
     id: "20",
-    category: "Handle Bath",
+    category: "Toilet hand shower",
     image: "/hand-held-9.jpg",
   },
   {
     id: "21",
-    category: "Handle Bath",
+    category: "Toilet hand shower",
     image: "/hand-held-10.jpg",
   },
   {
     id: "14",
-    category: "Handle Bath",
+    category: "Toilet hand shower",
     image: "/hand-held-3.jpg",
   },
   {
     id: "18",
-    category: "Handle Bath",
+    category: "Toilet hand shower",
     image: "/hand-held-7.jpg",
   },
   // Additional Tap (1)
@@ -134,10 +134,11 @@ export const products = [
     image: "/shower-3.jpg",
   },
   {
-    id: "53",
+    id: "54",
     category: "Showers",
     image: "/shower-12.jpg",
   },
+
   {
     id: "26",
     category: "Showers",
@@ -276,7 +277,7 @@ export const products = [
   },
   {
     id: "53",
-    category: "Handle Bath",
+    category: "Toilet hand shower",
     image: "/hand-held-12.jpg",
   },
 ];
