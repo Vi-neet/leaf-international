@@ -222,7 +222,7 @@ export default function Home() {
 
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/hand-held-1.jpg"
+              src="/hand-held-3.jpg"
               alt="Handle Bars"
               className="w-full h-56 object-cover"
             />

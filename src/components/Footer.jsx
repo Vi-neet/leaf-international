@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   MapPin,
   Phone,
@@ -11,6 +11,20 @@ import {
 } from "lucide-react";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  // Function to handle navigation and scroll to top
+  const handleNavigation = (path) => {
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
+
+  // Function to handle product category navigation
+  const handleProductNavigation = (category) => {
+    navigate(`/products?category=${category}`);
+    window.scrollTo(0, 0);
+  };
+
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="max-w-7xl mx-auto px-4 py-12">
@@ -25,32 +39,6 @@ const Footer = () => {
               Premium bathroom hardware solutions for modern homes. Quality
               faucets, taps and bathroom accessories.
             </p>
-            {/* <div className="flex space-x-4 mt-6">
-              <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Facebook size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Instagram size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Twitter size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Linkedin size={20} />
-              </a>
-            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -60,26 +48,29 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="hover:text-white transition-colors">
+                <button
+                  onClick={() => handleNavigation("/")}
+                  className="hover:text-white transition-colors"
+                >
                   Home
-                </Link>
+                </button>
               </li>
               <li>
-                <Link
-                  to="/products"
+                <button
+                  onClick={() => handleNavigation("/products")}
                   className="hover:text-white transition-colors"
                 >
                   Products
-                </Link>
+                </button>
               </li>
               <li></li>
               <li>
-                <Link
-                  to="/contact"
+                <button
+                  onClick={() => handleNavigation("/contact")}
                   className="hover:text-white transition-colors"
                 >
                   Contact
-                </Link>
+                </button>
               </li>
             </ul>
           </div>
@@ -91,44 +82,44 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <Link
-                  to="/products"
+                <button
+                  onClick={() => handleProductNavigation("Faucets")}
                   className="hover:text-white transition-colors"
                 >
                   Premium Faucets
-                </Link>
+                </button>
               </li>
               <li>
-                <Link
-                  to="/products"
+                <button
+                  onClick={() => handleProductNavigation("Showers")}
                   className="hover:text-white transition-colors"
                 >
-                  Bathroom Taps
-                </Link>
+                  Showers
+                </button>
               </li>
               <li>
-                <Link
-                  to="/products"
+                <button
+                  onClick={() => handleProductNavigation("Plastic Taps")}
                   className="hover:text-white transition-colors"
                 >
                   Plastic Taps
-                </Link>
+                </button>
               </li>
               <li>
-                <Link
-                  to="/products"
+                <button
+                  onClick={() => handleProductNavigation("Toilet hand shower")}
                   className="hover:text-white transition-colors"
                 >
                   Handle Bars
-                </Link>
+                </button>
               </li>
               <li>
-                <Link
-                  to="/products"
+                <button
+                  onClick={() => handleProductNavigation("Concealed Parts")}
                   className="hover:text-white transition-colors"
                 >
-                  Bathroom Accessories
-                </Link>
+                  Concealed Parts
+                </button>
               </li>
             </ul>
           </div>

@@ -1,11 +1,24 @@
-
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { products } from '../data/product';
 import ProductCard from '../components/ProductCard';
 
 export default function Products() {
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const categoryFromUrl = queryParams.get('category');
+  
   const categories = ['All', ...new Set(products.map(p => p.category))];
+  const [selectedCategory, setSelectedCategory] = useState('All');
+  
+  // Update selected category when the URL parameter changes
+  useEffect(() => {
+    if (categoryFromUrl && categories.includes(categoryFromUrl)) {
+      setSelectedCategory(categoryFromUrl);
+    } else {
+      setSelectedCategory('All');
+    }
+  }, [categoryFromUrl, categories]);
 
   const filteredProducts = selectedCategory === 'All'
     ? products
